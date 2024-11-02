@@ -1,11 +1,10 @@
 #!/bin/bash
-# 
-# This script build cinny_ynh from upstream source adding path placeholder to enable YNH subdirectory install support.
-# *Deps: it requires 'nvm' and appropriate node version (`nvm install xx`). 
-# *Resources usage: It may use up to 1GB disk space and 5GB RAM. 
-#
-# Authors: @oleole39 based on @Josue-T 
-# License: GPL-3.0
+# - Name:               build_cinny_ynh
+# - Description:        Build cinny_ynh from upstream source adding path placeholder to enable YNH subdirectory install support.
+# - Dependencies:       Build machine should have 'nvm' installed and required $node_version (`nvm install $node_version`). 
+# - Resources usage:    Up to 1GB disk space and 5GB RAM. 
+# - Authors:            @oleole39 based on @Josue-T 
+# - License:            GPL-3.0
 #---------------------------------------------------------------------------------------------------------------------
 
 # Github variables
